@@ -45,7 +45,7 @@ export const TextoPrincipal = styled.div`
     padding-left: 10px;
     flex-direction: column;
     justify-content: space-between;
-    font-weight: 600;
+    font-weight: 500;
 
     @media (min-width: 1000px) {
         width: 55%;
