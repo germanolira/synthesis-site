@@ -7,7 +7,7 @@ import { CapaStyles, Container, TextoPrincipal, SubTexto, ButtonStyle } from './
 
 const Capa: React.FC = () => {
     return (
-        <CapaStyles>
+        <CapaStyles className="capaCor">
             <Container>
                 <div>
                     <img src={logo} width="228" height="50" />
@@ -21,7 +21,7 @@ const Capa: React.FC = () => {
                 </SubTexto>
             </TextoPrincipal>
             <ButtonStyle className="botaoStyle">
-                Veja o nosso trabalho
+                Veja como trabalhamos
                 <img src={send} width="18" height="18" />
             </ButtonStyle>
         </CapaStyles>
