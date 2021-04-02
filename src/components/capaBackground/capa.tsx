@@ -1,4 +1,6 @@
 import React from 'react'
+import ReactDOM from 'react-dom';
+import { motion } from 'framer-motion';
 
 import logo from './logo.png'
 import send from './send.png'

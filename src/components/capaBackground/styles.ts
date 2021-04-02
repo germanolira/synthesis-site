@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { motion } from "framer-motion"
 
 export const CapaStyles = styled.div`
     background-color: #131418;
@@ -93,7 +94,7 @@ export const SubTexto = styled.div`
 export const ButtonStyle = styled.button`
   background-color: white;
   color: black;
-  font-size: 15px;
+  font-size: 0.8rem;
   padding: 15px 10px;
   margin-left: 10px;
   margin-top: 20px;
@@ -108,15 +109,15 @@ export const ButtonStyle = styled.button`
   width: 28vh;
 
   @media (min-width: 1000px) {
-      width: 25%;
+        width: 25vh;
   }
 
   @media (min-width: 1280px) {
-      width: 20%;
+        width: 24vh;
   }
 
   @media (min-width: 1900px) {
-        width: 15%;
+        width: 24vh;
     }
 
 `;
