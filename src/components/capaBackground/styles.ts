@@ -105,7 +105,7 @@ export const ButtonStyle = styled.button`
   align-items: center;
   justify-content: space-around;
 
-  width: 60%;
+  width: 28vh;
 
   @media (min-width: 1000px) {
       width: 25%;
