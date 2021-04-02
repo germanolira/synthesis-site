@@ -10,7 +10,7 @@ const Capa: React.FC = () => {
         <CapaStyles className="capaCor">
             <Container>
                 <div>
-                    <img src={logo} width="228" height="50" />
+                    <img src={logo} width="228" height="50" alt="logo-syn" />
                 </div>
             </Container>
             <TextoPrincipal>
@@ -22,7 +22,7 @@ const Capa: React.FC = () => {
             </TextoPrincipal>
             <ButtonStyle className="botaoStyle">
                 Veja como trabalhamos
-                <img src={send} width="18" height="18" />
+                <img src={send} width="18" height="18" alt="send icon" />
             </ButtonStyle>
         </CapaStyles>
     )
