@@ -9,7 +9,7 @@ const Home: React.FC = () => {
   return (
     <Container>
       <Head>
-        <title>Homepage</title>
+        <title>Synthesis | Design</title>
       </Head>
 
       <RocketseatLogo />
