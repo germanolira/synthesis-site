@@ -1,8 +1,13 @@
 import React from 'react';
-import logo from '../../assets/'
+import Logo from '../../assets/logocompleta.png';
+import './styles.css';
 
 export default function Header() {
     return (
-        <h1>Olá, testando</h1>
+        <div className="header-background">
+            <div className="conteudo-header">
+                <img src={Logo} alt="A logo do site" className="logo-img" />
+            </div>
+        </div>
     )
 }
